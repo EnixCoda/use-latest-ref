@@ -4,6 +4,14 @@ This is a react hook for preserving latest value within a ref, which is introduc
 
 Just like the doc says, _This is a rather convoluted pattern but it shows that you can do this escape hatch optimization if you need it._ Use this only if you really need it.
 
+## Install
+
+Available as `use-latest-ref` on npm, you can install with either npm or yarn.
+
+```
+$ yarn add use-latest-ref
+```
+
 ## Usage examples
 
 ```jsx
