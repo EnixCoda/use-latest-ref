@@ -2,7 +2,10 @@
 
 This is a react hook for preserving latest value within a ref, which is introduced in React hooks FAQ [here](https://reactjs.org/docs/hooks-faq.html#what-can-i-do-if-my-effect-dependencies-change-too-often) and [here](https://reactjs.org/docs/hooks-faq.html#what-can-i-do-if-my-effect-dependencies-change-too-often).
 
-Just like the doc says, _This is a rather convoluted pattern but it shows that you can do this escape hatch optimization if you need it._ Use this only if you really need it.
+Note:
+
+- Just like the doc says, _This is a rather convoluted pattern but it shows that you can do this escape hatch optimization if you need it._ Use this only if you really need it.
+- This hook could cause issues when react concurrent mode is enabled.
 
 ## Install
 
