@@ -15,7 +15,7 @@ $ yarn add use-latest-ref
 ## Usage examples
 
 ```jsx
-import { useLatestRef } from 'use-latest-ref
+import { useLatestRef } from 'use-latest-ref';
 
 function Form() {
   const [text, updateText] = useState('');
@@ -36,7 +36,7 @@ function Form() {
 ```
 
 ```jsx
-import { useLatestProp } from 'use-latest-ref
+import { useLatestProp } from 'use-latest-ref';
 // `useLatestProp` is an alias to `useLatestRef`
 // useLatestProp === useLatestRef
 
